@@ -1,0 +1,47 @@
+
+.app-container {
+    padding: 30px;
+    min-height: 100vh;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.light-theme {
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+.light-theme .input-form h2, .light-theme h1 {
+    color: #1a1a1a;
+}
+
+.light-theme .theme-toggle-button {
+    background-color: #fff;
+    color: #1a1a1a;
+    border: 1px solid #ccc;
+}
+
+.dark-theme {
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+}
+
+.dark-theme .input-form h2, .dark-theme h1 {
+    color: #fff;
+}
+
+.dark-theme .theme-toggle-button {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+}
+
+.input-form input {
+    margin-left: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+.input-form div {
+    margin-bottom: 15px;
+}
